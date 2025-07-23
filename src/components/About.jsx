@@ -48,7 +48,7 @@ const About = () => {
         </motion.div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .about-container {
           display: flex;
           align-items: center;

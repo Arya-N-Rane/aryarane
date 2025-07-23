@@ -72,7 +72,7 @@ const Home = () => {
         </motion.div>
       </motion.div>
 
-      <style jsx>{`
+      <style>{`
         .home-section {
           min-height: 100vh;
           display: flex;

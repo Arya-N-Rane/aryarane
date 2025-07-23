@@ -203,7 +203,7 @@ const Contact = () => {
                     </motion.div>
                   </div>
                 
-                  <style jsx>{`
+                  <style>{`
                     .contact-container {
                       display: grid;
                       grid-template-columns: 1fr 1fr;

@@ -26,7 +26,7 @@ const Footer = () => {
         </motion.div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .footer {
           background-color: var(--card-bg-color);
           padding: 30px 0;

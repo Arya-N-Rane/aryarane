@@ -42,7 +42,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .skills-section {
           padding: 80px 0;
         }

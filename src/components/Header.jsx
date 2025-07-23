@@ -55,7 +55,7 @@ const Header = ({ toggleTheme, theme }) => {
         </div>
       </motion.nav>
 
-      <style jsx>{`
+      <style>{`
         .header {
           position: fixed;
           top: 0;

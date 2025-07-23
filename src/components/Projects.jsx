@@ -91,7 +91,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .projects-section {
           padding: 80px 0;
         }

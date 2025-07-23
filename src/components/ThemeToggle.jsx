@@ -32,7 +32,7 @@ const ThemeToggle = ({ theme, toggleTheme }) => {
         </span>
       </div>
       
-      <style jsx>{`
+      <style>{`
         .theme-toggle {
           background: none;
           border: none;
