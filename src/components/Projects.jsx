@@ -4,6 +4,13 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'Service Feedback Form',
+    description: 'Service Feedback Form is a full-stack web application designed to collect, manage, and analyze customer feedback for a service-based organization. The system supports both user-facing and admin-facing interfaces with image upload functionality and real-time data handling.',
+    technologies: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL', 'Supabase'],
+    githubLink: 'https://github.com/Arya-N-Rane/Feedback-Form-',
+    demoLink: 'https://feedback-form-liard-psi.vercel.app/'
+  },
+  {
     title: 'Java E-Commerce Platform',
     description: 'A full-stack e-commerce application built with Java, Spring Boot, and MySQL.',
     technologies: ['Java', 'Spring Boot', 'MySQL', 'HTML/CSS'],
