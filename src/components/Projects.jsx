@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import feedbackFormImage from '../assets/image.png';
 
 const projects = [
   {
@@ -8,7 +9,8 @@ const projects = [
     description: 'Service Feedback Form is a full-stack web application designed to collect, manage, and analyze customer feedback for a service-based organization. The system supports both user-facing and admin-facing interfaces with image upload functionality and real-time data handling.',
     technologies: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL', 'Supabase'],
     githubLink: 'https://github.com/Arya-N-Rane/Feedback-Form-',
-    demoLink: 'https://feedback-form-liard-psi.vercel.app/'
+    demoLink: 'https://feedback-form-liard-psi.vercel.app/',
+    image: feedbackFormImage
   },
   {
     title: 'Java E-Commerce Platform',
@@ -52,7 +54,11 @@ const Projects = () => {
                 whileHover={{ y: -5 }}
               >
                 <div className="project-image">
-                  <div className="placeholder-image" />
+                  {project.image ? (
+                    <img src={project.image} alt={project.title} className="project-img" />
+                  ) : (
+                    <div className="placeholder-image" />
+                  )}
                 </div>
                 
                 <div className="project-content">
@@ -125,6 +131,14 @@ const Projects = () => {
         .project-image {
           height: 200px;
           background-color: var(--background-color);
+          overflow: hidden;
+        }
+        
+        .project-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
         }
         
         .placeholder-image {
